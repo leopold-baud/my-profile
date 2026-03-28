@@ -1,0 +1,106 @@
+/* Color and Font */
+body {
+  background-color: #8E977D;
+  font-family: "Iosevka Charon Mono", monospace;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Headers */
+h1, h2, h3 {
+  font-family: Arial, sans-serif;
+  color: #87B6BC;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* Links */
+a {
+  color: blueviolet;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: yellowgreen;
+}
+
+/* Container */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+/* Cards */
+.card-white {
+  background-color: white;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.card-white:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease;
+}
+
+/* Image */
+img {
+  border-radius: 50%;
+}
+
+/* List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* --- Media Queries --- */
+
+@media (max-width: 960px) {
+  body {
+    font-size: 15px;
+    padding: 0 20px;
+  }
+
+  h1, h2, h3 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 720px) {
+  h1, h2, h3 {
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+}
+
+@media (max-width: 540px) {
+  body {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  h1, h2, h3 {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
